@@ -8,41 +8,42 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/codeInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:inputType="number"
-        android:hint="Insert code"/>
-
-    <EditText
-        android:id="@+id/fullnameInput"
+        android:id="@+id/fullNameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:inputType="text"
-        android:hint="Insert fullname"/>
+        android:hint="Full Name"/>
 
     <EditText
-        android:id="@+id/amountInput"
+        android:id="@+id/emailInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:inputType="numberDecimal"
-        android:hint="Inser amount"/>
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
 
-    <Button
-        android:id="@+id/btnExplicit"
+    <EditText
+        android:id="@+id/phoneNumberInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send to Explicit Activity"
-        />
+        android:layout_marginBottom="16dp"
+        android:inputType="phone"
+        android:hint="Phone Number"/>
 
-    <Button
-        android:id="@+id/btnImplicit"
+    <EditText
+        android:id="@+id/officeInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send to Implicit Activity"
-        />
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:hint="Office"/>
+
+    <Button
+        android:id="@+id/btnSaveExplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
 
 </LinearLayout>
